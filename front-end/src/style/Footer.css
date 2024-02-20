@@ -1,0 +1,75 @@
+.footer{
+    width: 100%;
+    padding: 50px 0px;
+    background: #fde4e4;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: unset;
+}
+.logo-img{
+    height: 50px;
+    margin-left: 50px;
+
+}
+.newsletter{
+    padding: 5px;
+    border: 1px solid #212245;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter input{
+background: transparent;
+border: none;
+outline: none;
+}
+.newsletter span{
+    background: #212245;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.newsletter span i{
+    color: #fff;
+}
+
+@media (max-width: 768px){
+    .project-title{
+        font-size: 0.9rem;
+    }
+    .delivery-items span{
+        font-size: 0.8rem;
+    }
+    .delivery-items p{
+        font-size: 0.7rem;
+    }
+    
+    .newsletter input{
+        padding: 5px 0px;
+        font-size: 0.7rem;
+    }
+    .newsletter span{
+        padding: 4px 5px;
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 1200px){
+    .newsletter input{
+        padding: 5px 0px;
+    }
+    .newsletter span{
+        padding: 4px 5px;
+    }
+}
+
+@media (max-width: 576px){
+    .copy-text{
+        text-align: center;
+    }
+    .social-links span{
+       padding: 4px;
+    }
+   
+}

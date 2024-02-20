@@ -1,0 +1,27 @@
+.title span{
+    color: #df2020;
+}
+.why-pizza p{
+    line-height: 24px;
+}
+.item-icon{
+    font-weight: 500;
+}
+.item-icon i{
+    font-weight: 500;
+    color: #df2020;
+}
+@media (max-width: 768px) {
+    .about-desc{
+        font-size: 0.8rem;
+    }
+    .item-icon{
+        font-size: 0.8rem;
+    }
+    .item-desc{
+        font-size: 0.7rem;
+    }
+    .about-img{
+        width: 100px !important;
+    }
+}

@@ -1,0 +1,25 @@
+.home-nav a:hover{
+    color: #df2020 !important;
+}
+.nav_ul  a,li nav{
+    font-size: 1.05;
+    color: #000 !important;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+.nav_ul ul li a:hover{
+    color: #df2020;
+}
+
+.nav_ul li{
+    padding: 0.0 0.9rem;
+}
+.shopping_cart,.user_login{
+    font-size: 1rem;
+    color: #212245;
+    cursor: pointer;
+}
+.nav_icons li{
+    padding: 0.0 0.9rem;
+}
+

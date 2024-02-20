@@ -1,0 +1,23 @@
+.registration-out-container{
+    /* background-color: aqua; */
+  /* background-image: url("../assests/images/product_3.3.jpg");*/
+    /* background-position: 50%; */
+    background-size: cover;
+    
+    
+}
+.registration-in-container{
+    padding: 10%;
+    text-align-last: center;
+    text-align: center;
+}
+.registration-form-container{
+    background-color: rgba(0,0,0,0.5);
+    padding: 3em;
+    border-radius: 30px;
+}
+
+.row{
+   
+    justify-content: center;
+}
